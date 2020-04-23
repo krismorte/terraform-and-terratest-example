@@ -39,17 +39,17 @@ RUN TERRAFORM
 
 To validade this code with terraform run a PLAN command in your terminal
 
-`terraform plan -var-file=params.tfvars`
+`terraform plan --var-file=params.tfvars`
 
 To create the resources run a terraform APPLY
 
-`terraform apply -var-file=params.tfvars`
+`terraform apply --var-file=params.tfvars`
 
 *this command will create the resources at your account and can result in charges on your card
 
 To remove the resources run a terraform DESTROY
 
-`terraform destroy -var-file=params.tfvars`
+`terraform destroy --var-file=params.tfvars`
 
 RUN TERRATEST
 --------
